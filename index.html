@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>
+Agrinho 2026 | Robótica e Automação no Impacto Ambiental
+</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div id="loader">
+
+    <div class="loader-content">
+
+        <h1>AGRINHO 2026</h1>
+
+        <p id="loadingText">
+            Inicializando sistema...
+        </p>
+
+        <div class="loading-bar">
+
+            <div id="progress"></div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<div id="cursor"></div>
+
+<canvas id="space"></canvas>
+
+<div class="background-glow"></div>
+
+<div class="noise"></div>
+
+<header class="hero">
+
+<nav>
+
+<h1>
+AGRINHO 2026
+</h1>
+
+<div class="menu">
+
+<a href="#sobre">
+Sobre
+</a>
+
+<a href="#impactos">
+Impactos
+</a>
+
+<a href="#campo">
+Agronegócio
+</a>
+
+<a href="#futuro">
+Futuro
+</a>
+
+<a href="#quiz">
+Quiz
+</a>
+
+</div>
+
+<div class="accessibility">
+
+<button id="fontBtn">
+A+
+</button>
+
+<button id="contrastBtn">
+♿
+</button>
+
+<button id="voiceBtn">
+🔊
+</button>
+
+<button id="colorBlindBtn">
+🎨
+</button>
+
+</div>
+
+</nav>
+
+<div class="hero-content">
+
+<div class="hero-text">
+
+<span class="tag">
+TECNOLOGIA • SUSTENTABILIDADE • INOVAÇÃO
+</span>
+
+<h2>
+
+Robótica e
+<span>Automação</span>
+
+no Impacto Ambiental
+
+</h2>
+
+<p>
+
+A tecnologia está transformando a forma como
+produzimos alimentos, utilizamos recursos naturais
+e protegemos o meio ambiente.
+
+Robôs, sensores, drones e inteligência artificial
+estão ajudando a construir um futuro mais sustentável.
+
+</p>
+
+<button id="exploreBtn">
+Explorar Projeto
+</button>
+
+</div>
+
+<div class="planet-area">
+
+<div class="planet"></div>
+
+<div class="orbit orbit1"></div>
+<div class="orbit orbit2"></div>
+
+<div class="floating-card card1">
+🤖 Robótica
+</div>
+
+<div class="floating-card card2">
+♻ Sustentabilidade
+</div>
+
+<div class="floating-card card3">
+🌱 Meio Ambiente
+</div>
+
+</div>
+
+</div>
+
+</header>
+
+<main>
+
+<section class="glass-section" id="sobre">
+
+<div class="section-title">
+
+<span>
+01
+</span>
+
+<h3>
+O que é Robótica e Automação?
+</h3>
+
+</div>
+
+<div class="content-grid">
+
+<div class="info-box large">
+
+<h4>
+Conceito
+</h4>
+
+<p>
+
+A robótica é a área da tecnologia responsável pelo desenvolvimento
+de máquinas inteligentes capazes de executar tarefas automaticamente.
+
+Já a automação utiliza sensores, softwares e sistemas eletrônicos
+para controlar processos sem a necessidade de intervenção humana constante.
+
+Essas tecnologias estão presentes na agricultura, na indústria,
+nos hospitais, nos transportes e até mesmo dentro das residências.
+
+Além de aumentar a produtividade, elas também podem contribuir
+para a preservação ambiental ao reduzir desperdícios de água,
+energia e matérias-primas.
+
+</p>
+
+</div>
+
+<div class="info-box">
+
+<h4>
+Agricultura
+</h4>
+
+<p>
+
+Drones agrícolas monitoram plantações,
+sensores analisam o solo e tratores inteligentes
+realizam tarefas com alta precisão.
+
+</p>
+
+</div>
+
+<div class="info-box">
+
+<h4>
+Indústria
+</h4>
+
+<p>
+
+Robôs industriais aumentam a produtividade,
+reduzem erros humanos e diminuem o desperdício
+de materiais durante a fabricação.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+<section class="split-section" id="impactos">
+
+<div class="impact positive">
+
+<h3>
+Impactos Positivos
+</h3>
+
+<div class="impact-card">
+
+<span>💧</span>
+
+<div>
+
+<h4>
+Economia de Água
+</h4>
+
+<p>
+
+Sensores inteligentes monitoram a umidade do solo
+e liberam apenas a quantidade necessária de água,
+evitando desperdícios e preservando recursos hídricos.
+
+</p>
+
+</div>
+
+</div>
+
+<div class="impact-card">
+
+<span>🌾</span>
+
+<div>
+
+<h4>
+Agricultura de Precisão
+</h4>
+
+<p>
+
+Drones, GPS e inteligência artificial permitem
+análises detalhadas das plantações, aumentando
+a produtividade e reduzindo perdas.
+
+</p>
+
+</div>
+
+</div>
+
+<div class="impact-card">
+
+<span>🌎</span>
+
+<div>
+
+<h4>
+Menor Poluição
+</h4>
+
+<p>
+
+Máquinas modernas reduzem o consumo de combustível
+e diminuem a emissão de gases poluentes.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="impact negative">
+
+<h3>
+Impactos Negativos
+</h3>
+
+<div class="impact-card">
+
+<span>🔋</span>
+
+<div>
+
+<h4>
+Lixo Eletrônico
+</h4>
+
+<p>
+
+O descarte inadequado de componentes eletrônicos
+pode causar contaminação do solo e da água.
+
+</p>
+
+</div>
+
+</div>
+
+<div class="impact-card">
+
+<span>⚡</span>
+
+<div>
+
+<h4>
+Consumo de Energia
+</h4>
+
+<p>
+
+Sistemas automatizados exigem energia constante,
+o que pode aumentar impactos ambientais quando
+utilizam fontes não renováveis.
+
+</p>
+
+</div>
+
+</div>
+
+<div class="impact-card">
+
+<span>🏭</span>
+
+<div>
+
+<h4>
+Extração de Recursos
+</h4>
+
+<p>
+
+A fabricação de equipamentos tecnológicos
+depende da extração de minerais e matérias-primas.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="timeline" id="campo">
+
+<div class="section-title center">
+
+<span>
+02
+</span>
+
+<h3>
+Robótica no Agronegócio
+</h3>
+
+</div>
+
+<div class="timeline-line"></div>
+
+<div class="timeline-item left">
+
+<div class="timeline-content">
+
+<h4>
+🚁 Drones Agrícolas
+</h4>
+
+<p>
+
+Monitoram grandes áreas em poucos minutos,
+identificando pragas, doenças e falhas no plantio.
+
+</p>
+
+</div>
+
+</div>
+
+<div class="timeline-item right">
+
+<div class="timeline-content">
+
+<h4>
+💧 Irrigação Inteligente
+</h4>
+
+<p>
+
+Sensores analisam a umidade do solo e controlam
+automaticamente a irrigação.
+
+</p>
+
+</div>
+
+</div>
+
+<div class="timeline-item left">
+
+<div class="timeline-content">
+
+<h4>
+🚜 Tratores Autônomos
+</h4>
+
+<p>
+
+Máquinas equipadas com GPS realizam atividades
+agrícolas com alta precisão e menor desperdício.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="projects-section">
+
+<div class="section-title center">
+
+<span>
+03
+</span>
+
+<h3>
+Projetos do Futuro
+</h3>
+
+</div>
+
+<div class="projects-grid">
+
+<div class="project-card">
+
+<div class="project-top">
+
+<span>🌱</span>
+
+<h4>
+Fazendas Inteligentes
+</h4>
+
+</div>
+
+<p>
+
+Integração total entre inteligência artificial,
+sensores e robôs agrícolas.
+
+</p>
+
+</div>
+
+<div class="project-card">
+
+<div class="project-top">
+
+<span>🤖</span>
+
+<h4>
+Robôs Recicladores
+</h4>
+
+</div>
+
+<p>
+
+Capazes de identificar materiais recicláveis
+automaticamente.
+
+</p>
+
+</div>
+
+<div class="project-card">
+
+<div class="project-top">
+
+<span>☀</span>
+
+<h4>
+Cidades Sustentáveis
+</h4>
+
+</div>
+
+<p>
+
+Controle inteligente de energia, trânsito e iluminação.
+
+</p>
+
+</div>
+
+<div class="project-card">
+
+<div class="project-top">
+
+<span>🚁</span>
+
+<h4>
+Drones Ambientais
+</h4>
+
+</div>
+
+<p>
+
+Monitoramento de queimadas, rios e áreas de preservação.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+<section class="graphs-section">
+
+<h2>
+Impactos da Automação
+</h2>
+
+<div class="graph">
+
+<div class="bar">
+
+<span>
+💧 Economia de Água
+</span>
+
+<div class="fill water"></div>
+
+</div>
+
+<div class="bar">
+
+<span>
+🌱 Redução de Fertilizantes
+</span>
+
+<div class="fill fertilizer"></div>
+
+</div>
+
+<div class="bar">
+
+<span>
+📈 Aumento da Produtividade
+</span>
+
+<div class="fill productivity"></div>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="map-section">
+
+<h2>
+Mapa Tecnológico do Brasil
+</h2>
+
+<div class="states">
+
+<div class="state">
+PR
+<span>
+Paraná: Agricultura de Precisão, drones e sensores inteligentes.
+</span>
+</div>
+
+<div class="state">
+SP
+<span>
+São Paulo: Automação industrial e pesquisa em robótica.
+</span>
+</div>
+
+<div class="state">
+MT
+<span>
+Mato Grosso: Monitoramento agrícola por satélite.
+</span>
+</div>
+
+<div class="state">
+GO
+<span>
+Goiás: Uso de tratores autônomos e irrigação inteligente.
+</span>
+</div>
+
+</div>
+
+</section>
+
+<section class="quiz-section" id="quiz">
+
+<h2>Quiz Agrinho</h2>
+
+<div id="quizBox">
+
+<h3 id="question"></h3>
+
+<div id="answers"></div>
+
+<p id="feedback"></p>
+
+</div>
+
+<div id="finalResult"></div>
+
+<button id="certificateBtn" style="display:none;">
+🏆 Gerar Certificado
+</button>
+
+</section>
+
+<section class="future-section" id="futuro">
+
+<div class="future-card">
+
+<h3>
+O Futuro Sustentável
+</h3>
+
+<p>
+
+A robótica e a automação possuem potencial para transformar
+o planeta de maneira positiva.
+
+Quando utilizadas com responsabilidade,
+essas tecnologias podem reduzir desperdícios,
+economizar recursos naturais,
+melhorar a produção agrícola
+e ajudar na preservação ambiental.
+
+O desafio do futuro será unir inovação tecnológica
+e sustentabilidade.
+
+</p>
+
+<div class="stats">
+
+<div>
+
+<h4 id="counter1">
+0
+</h4>
+
+<span>
+Menos desperdício
+</span>
+
+</div>
+
+<div>
+
+<h4 id="counter2">
+0
+</h4>
+
+<span>
+Mais eficiência
+</span>
+
+</div>
+
+<div>
+
+<h4 id="counter3">
+0
+</h4>
+
+<span>
+Mais sustentabilidade
+</span>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+</main>
+
+<footer>
+
+<p>
+
+Projeto desenvolvido para o Concurso Agrinho 2026
+
+</p>
+
+<span class="creator">
+
+Desenvolvido por Murilo Cage Rosa
+
+</span>
+
+</footer>
+
+<div class="modal" id="modal">
+
+<div class="modal-content">
+
+<span class="close-btn">
+&times;
+</span>
+
+<h3 id="modalTitle"></h3>
+
+<p id="modalText"></p>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
