@@ -1,4 +1,4 @@
-// BOTÃO EXPLORAR
+
 
 document
 .getElementById("exploreBtn")
@@ -12,7 +12,7 @@ behavior:"smooth"
 
 });
 
-// CONTADORES
+
 
 function animateCounter(id,target){
 
@@ -60,7 +60,7 @@ observer.observe(
 document.querySelector(".future-section")
 );
 
-// EFEITO DOS CARDS
+
 
 const cards =
 document.querySelectorAll(
@@ -99,7 +99,7 @@ card.style.background =
 
 });
 
-// PLANETA 3D
+
 
 document.addEventListener("mousemove",(e)=>{
 
@@ -122,7 +122,7 @@ rotateX(${y}deg)`;
 
 });
 
-// GRÁFICOS
+
 
 const graphObserver =
 new IntersectionObserver(entries=>{
@@ -370,7 +370,7 @@ Robótica e Automação no Impacto Ambiental`
 
 });
 
-// LEITOR DE VOZ
+
 
 const voiceBtn =
 document.getElementById("voiceBtn");
@@ -394,7 +394,7 @@ speechSynthesis.speak(fala);
 
 }
 
-// AUMENTAR FONTE
+
 
 const fontBtn =
 document.getElementById("fontBtn");
@@ -411,7 +411,7 @@ document.body.classList.toggle(
 
 }
 
-// ALTO CONTRASTE
+
 
 const contrastBtn =
 document.getElementById("contrastBtn");
@@ -428,7 +428,7 @@ document.body.classList.toggle(
 
 }
 
-// MODO DALTÔNICO
+
 
 const colorBtn =
 document.getElementById("colorBlindBtn");
@@ -445,7 +445,7 @@ document.body.classList.toggle(
 
 }
 
-// FUNDO ESPACIAL
+
 
 const canvas =
 document.getElementById("space");
@@ -618,7 +618,7 @@ ctx.stroke();
 
 }
 
-// ESTRELAS CADENTES
+
 
 function shootingStar(){
 
@@ -673,7 +673,7 @@ shootingStar();
 
 },5000);
 
-// ANIMAÇÃO PRINCIPAL
+
 
 function animate(){
 
